@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Upload Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="ProductListServlet_UploadImages" method="post" name="f1" enctype="multipart/form-data">
+            <table>
+                <tr>
+                    <td>Product ID: </td>
+                    <td><input type="text" name="id" value=""/></td>
+                </tr>
+                <tr>
+                    <td>Name: </td>
+                    <td><input type="text" name="name" value=""/></td>
+                </tr>
+                <tr>
+                    <td>Description: </td>
+                    <td><input type="text" name="description" value=""/></td>
+                </tr>
+                <tr>
+                    <td>Quantity: </td>
+                    <td><input type="text" name="quantity" value=""/></td>
+                </tr>
+                <tr>
+                    <td>Price: </td>
+                    <td><input type="text" name="price" value=""/></td>
+                </tr>
+                <tr>
+                    <td>ImageURL </td>
+                    <td><input type="file" name="photo"/></td>
+                </tr>
+            </table>
+            <input type="submit" value="Insert"/>
+            <button type="button">Reset</button>
+        </form>   
+    </body>
+</html>

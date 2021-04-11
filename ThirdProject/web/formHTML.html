@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="formDemo" method="GET" name="f2get">
+            Name: <br><input type="text" name="name"/> <br>
+            Email:<br><input type="text" name="email"/> <br>
+            Password: <br><input type="password" name="password"/> <br>
+            Age: <br>
+                <input type="radio" name="age"> Under 13<br>
+                <input type="radio" name="age"/>13 or older
+            <h2> Your profile</h2>
+            Biography:<br> <input type="text" name="bio"/> <br>
+            
+            Job Role:<br>
+            <select name="job">
+                <option>Software Developer</option>
+                <option>Software Tester</option>
+                <option>Sales</option>
+            </select>
+            <br>
+            Interests:<br>
+            <input type="checkbox" name="int" value ="Development"/> Development <br>
+            <input type="checkbox" name="int" value ="Design"/> Design <br>
+            <input type="checkbox" name="int" value ="Business"/> Business <br>
+            <input type="submit" value="Submit"/>
+        </form>
+    </body>
+</html>

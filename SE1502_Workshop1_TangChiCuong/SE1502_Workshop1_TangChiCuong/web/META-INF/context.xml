@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/SE1502_Workshop1_TangChiCuong">
+    <Resource
+        name="DBConnection" auth="Container"
+        type="javax.sql.DataSource"
+        username="chicuong"
+        password="879546231"
+        driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+        url="jdbc:sqlserver://localhost:1433;databaseName=SE1502_Workshop1_TangChiCuong">
+    </Resource>
+</Context>
