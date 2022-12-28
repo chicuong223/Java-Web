@@ -1,4 +1,4 @@
-## PRJ301 Projects
+## PRJ301: Java Web Programming
 
 ### This repository contains web projects from PRJ301
 
